@@ -213,6 +213,7 @@ body {
   border-radius: 50%;
   position: relative;
   color: #0bb5f4;
+  margin: auto;
 }
 
 .resume .resume_right .resume_hobby ul li i {
@@ -231,4 +232,29 @@ body {
 
 .resume .resume_right .resume_hobby ul li:last-child:before {
   display: none;
+}
+
+
+
+/* Cambios */
+.resume .resume_left ul li:hover .icon {
+  width: 34px;
+  height: 34px;
+  color: white;
+  background: transparent;
+  font-size: 22px;
+  transition: all 0.2s ease-in-out;
+}
+
+.resume .resume_left ul li:hover .semi-bold {
+  font-size: 17px;
+}
+
+.resume .resume_left ul li a {
+  text-decoration: none;
+}
+
+.resume .resume_right .resume_work ul li:before,
+.resume .resume_right .resume_education ul li:before {
+  background-color: white;
 }
